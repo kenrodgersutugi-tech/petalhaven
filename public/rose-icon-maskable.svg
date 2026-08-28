@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="mRoseGradMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B95" />
+      <stop offset="50%" stop-color="#E75480" />
+      <stop offset="100%" stop-color="#C2255C" />
+    </linearGradient>
+    <linearGradient id="mRoseGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB6C1" />
+      <stop offset="100%" stop-color="#E75480" />
+    </linearGradient>
+    <linearGradient id="mRoseGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D6336C" />
+      <stop offset="100%" stop-color="#9C174D" />
+    </linearGradient>
+    <linearGradient id="mLeafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#86EFAC" />
+      <stop offset="100%" stop-color="#22C55E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Solid white background filling the full canvas for maskable specs -->
+  <rect width="512" height="512" fill="#ffffff" />
+  <circle cx="256" cy="256" r="195" fill="#FFF0F3" />
+
+  <!-- Scaled slightly inside the 80% safe zone (center 409px) -->
+  <g transform="translate(51, 51) scale(0.8)">
+    <!-- Stylized leaf accent -->
+    <path d="M190 340 C140 370, 110 420, 130 450 C160 470, 220 440, 230 380 Z" fill="url(#mLeafGrad)" opacity="0.9" />
+    <path d="M330 330 C380 360, 410 410, 390 440 C360 460, 300 435, 290 375 Z" fill="url(#mLeafGrad)" opacity="0.9" />
+
+    <!-- Outer Petals Layer -->
+    <path d="M256 70 C340 70, 420 140, 420 230 C420 330, 340 410, 256 410 C172 410, 92 330, 92 230 C92 140, 172 70, 256 70 Z" fill="url(#mRoseGradMain)" />
+    
+    <!-- Secondary Outer Wrapping Petals -->
+    <path d="M256 100 C320 100, 390 150, 390 230 C390 310, 325 380, 256 380 C185 380, 122 310, 122 230 C122 150, 190 100, 256 100 Z" fill="#D6336C" />
+    
+    <!-- Left Wrapping Petal -->
+    <path d="M130 220 C130 310, 210 370, 270 370 C220 360, 160 300, 160 220 C160 160, 200 130, 256 120 C180 130, 130 170, 130 220 Z" fill="url(#mRoseGradLight)" />
+
+    <!-- Right Wrapping Petal -->
+    <path d="M382 220 C382 310, 302 370, 242 370 C292 360, 352 300, 352 220 C352 160, 312 130, 256 120 C332 130, 382 170, 382 220 Z" fill="url(#mRoseGradDark)" />
+
+    <!-- Middle Petal Cups -->
+    <path d="M165 210 C165 290, 220 340, 256 340 C292 340, 347 290, 347 210 C347 170, 310 145, 256 145 C202 145, 165 170, 165 210 Z" fill="#E75480" />
+    <path d="M185 220 C185 280, 225 320, 256 320 C287 320, 327 280, 327 220 C327 180, 290 160, 256 160 C222 160, 185 180, 185 220 Z" fill="#FF8DA9" />
+
+    <!-- Inner Rose Heart / Core Spiral -->
+    <path d="M256 175 C275 175, 305 190, 305 220 C305 255, 275 285, 256 285 C237 285, 207 255, 207 220 C207 190, 237 175, 256 175 Z" fill="#9C174D" />
+    
+    <path d="M256 190 C270 190, 290 202, 290 220 C290 245, 270 265, 256 265 C242 265, 222 245, 222 220 C222 202, 242 190, 256 190 Z" fill="#FFB6C1" />
+
+    <path d="M256 202 C263 202, 275 208, 275 220 C275 233, 264 246, 256 246 C248 246, 237 233, 237 220 C237 208, 249 202, 256 202 Z" fill="#E75480" />
+
+    <!-- Center Bud Centerpiece -->
+    <ellipse cx="256" cy="222" rx="10" ry="12" fill="#FFF0F3" />
+  </g>
+</svg>

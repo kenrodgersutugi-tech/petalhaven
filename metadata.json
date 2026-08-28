@@ -1,0 +1,6 @@
+{
+  "name": "Petals Haven Gift Shop",
+  "description": "Premier luxury floral boutique and gift shop for Petals Haven in Meru, Kenya (Mwitu Centre Building). Features fresh flower bouquets, custom hampers, M-PESA & card checkout, preferred working-hour delivery dates, customer reviews, and dedicated store owner admin portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
